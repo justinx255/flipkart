@@ -1,13 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
 import App from 'next/app'
 
 import Landing from "../Containers/Landing";
+import Cart from "../Containers/Cart";
 
 function myApp() {
     return (
-        <div>
-            <Landing />
-        </div>
+
+        <Fragment>
+            {/* <Landing /> */}
+            <Cart/>
+        </Fragment>
     );
 
 }

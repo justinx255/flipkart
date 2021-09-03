@@ -1,11 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Landing from "../Containers/Landing";
-
 function index() {
     return (
-        <div>
+        <Fragment>
             <Landing />
-        </div>
+        </Fragment>
     );
 }
 

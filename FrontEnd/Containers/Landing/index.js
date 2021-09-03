@@ -15,7 +15,7 @@ export default function Landing() {
     const classes = useStyle()
     return (
         <div>
-            <Header />
+            <Header/>
             <NavBar />
             <Box className={classes.banner}>
                 <Banner />
