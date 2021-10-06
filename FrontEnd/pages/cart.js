@@ -1,11 +1,3 @@
-import React, { Fragment } from "react";
+import Cart from "../Containers/Cart";
 
-export default function Cart() {
-    <Fragment>
-
-        {/* <Header/> */}
-        hai mame
-
-    </Fragment>
-
-}
+export default Cart;
